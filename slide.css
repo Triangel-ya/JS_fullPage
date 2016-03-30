@@ -1,0 +1,55 @@
+﻿/**
+ * Created by linjinxia on 2015/11/16.
+ * 这是插件的样式，使用时需要将此css文件引入在所有css文件最开头的位置
+ */
+
+*{
+	margin:0;
+	padding: 0;
+}
+body{
+	overflow: hidden;
+}
+.slide{
+	position: relative;
+	width: 100%;
+	height: 600px;
+	overflow: hidden;
+}
+.slideContainer{
+	position: relative;
+	left:0;
+	width: 100%;
+	height: 100%;	
+}
+
+.slidePage{
+	position: relative;
+	width: 100%;
+	height: 600px;
+	float: left;
+}
+
+.slideLeft{
+	position:absolute;
+	left: 0;
+	top: 200px;
+	background-image:url(images/btnl.png); 
+	display: block;
+	width: 39px;
+	height: 60px;
+	cursor: pointer;
+}
+
+.slideRight{
+	position:absolute;
+	right: 0;
+	top: 200px;
+	background-image:url(images/btnr.png); 
+	display: block;
+	width: 39px;
+	height: 60px;
+	cursor: pointer;
+}
+
+
